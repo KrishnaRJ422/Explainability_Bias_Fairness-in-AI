@@ -10,11 +10,11 @@ This study is divided in to 3 parts:
  
  
 REFERENCES:
-https://shap.readthedocs.io/en/latest/
-https://towardsdatascience.com/explain-any-models-with-the-shap-values-use-the-kernelexplainer-79de9464897a
-https://medium.com/@tonyxu_71807/ensuring-fairness-and-explainability-in-credit-default-risk-modeling-shap-ibm-tool-kit-aix-360-bfc519c191bf?
-https://towardsdatascience.com/explainable-ai-interpretability-of-machine-learning-models-412840d58f40 
-https://towardsdatascience.com/shap-explained-the-way-i-wish-someone-explained-it-to-me-ab81cc69ef30
-https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.mutual_info_classif.html
-https://www.youtube.com/watch?v=81JSbXZ26Ls
-https://www.kaggle.com/dansbecker/permutation-importance
+1.https://shap.readthedocs.io/en/latest/
+2.https://towardsdatascience.com/explain-any-models-with-the-shap-values-use-the-kernelexplainer-79de9464897a
+3.https://medium.com/@tonyxu_71807/ensuring-fairness-and-explainability-in-credit-default-risk-modeling-shap-ibm-tool-kit-aix-360-bfc519c191bf?
+4.https://towardsdatascience.com/explainable-ai-interpretability-of-machine-learning-models-412840d58f40 
+5.https://towardsdatascience.com/shap-explained-the-way-i-wish-someone-explained-it-to-me-ab81cc69ef30
+6.https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.mutual_info_classif.html
+7.https://www.youtube.com/watch?v=81JSbXZ26Ls
+8.https://www.kaggle.com/dansbecker/permutation-importance
