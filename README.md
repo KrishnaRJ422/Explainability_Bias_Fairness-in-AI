@@ -24,3 +24,6 @@ REFERENCES:
 6. https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.mutual_info_classif.html
 7. https://www.youtube.com/watch?v=81JSbXZ26Ls
 8. https://www.kaggle.com/dansbecker/permutation-importance
+9. https://aif360.readthedocs.io/en/latest/modules/datasets.html
+10. https://nbviewer.jupyter.org/github/IBM/AIF360/blob/master/examples/tutorial_credit_scoring.ipynb
+11. https://aif360.mybluemix.net/
