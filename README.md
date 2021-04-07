@@ -4,10 +4,13 @@ This work focuses on bringing explainability to black box ML models, along with 
 German credit score data set is considered as source for this study https://archive.ics.uci.edu/ml/datasets/Statlog+%28German+Credit+Data%29 which is a binary label dataset that contains entries that contain customer financial and demographic information tagged with credit score(good/bad).
 This work is inspired by the paper https://arxiv.org/pdf/2005.12379.pdf and https://arxiv.org/pdf/1811.11154.pdf being other reference.
 This study is divided in to 3 parts:
+
  a) Exploratory data anaysis(EDA) through visualization, correalation analysis (klib library is used) 
  https://krishnarj422.github.io/Explainability_Bias_Fairness-in-AI/German_credit_score_classif_EDA.html
+ 
  b) Explainability (using SHAPley, ELI5) 
  https://krishnarj422.github.io/Explainability_Bias_Fairness-in-AI/German_credit_score_classif_XAI.html
+ 
  c) Fairness and bias mitigation (fairness metrics used are DI,SPD,EOD,AOD,ERD,CNT,TI; bias mitigation: pre-process(reweighing,DIR), in-process(AD,PRR) and post-    process(EO,COD,ROC)) 
  https://krishnarj422.github.io/Explainability_Bias_Fairness-in-AI/German_credit_score_classif_BIAS_FAIRNESS.html .
  
