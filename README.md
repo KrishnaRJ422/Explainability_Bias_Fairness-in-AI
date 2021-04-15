@@ -6,13 +6,13 @@ This work is inspired by the paper https://arxiv.org/pdf/2005.12379.pdf and http
 This study is divided in to 3 parts:
 
  a) Exploratory data anaysis(EDA) through visualization, correalation analysis (klib library is used) 
- https://krishnarj422.github.io/Explainability_Bias_Fairness-in-AI/German_credit_score_classif_EDA.html
+ https://krishnarj422.github.io/Explainability_Bias_Fairness-in-AI/German_credit_score_EDA.html
  
- b) Explainability (using SHAPley, ELI5) 
- https://krishnarj422.github.io/Explainability_Bias_Fairness-in-AI/German_credit_score_classif_XAI.html
+ b) Explainability (using SHAPley, ELI5) on train data
+ https://krishnarj422.github.io/Explainability_Bias_Fairness-in-AI/German_credit_score_XAI.html
  
- c) Fairness and bias mitigation (fairness metrics used are DI,SPD,EOD,AOD,ERD,CNT,TI; bias mitigation: pre-process(reweighing,DIR), in-process(AD,PRR) and post-    process(EO,COD,ROC)) 
- https://krishnarj422.github.io/Explainability_Bias_Fairness-in-AI/German_credit_score_classif_BIAS_FAIRNESS.html .
+ c) Fairness and bias mitigation (fairness metrics used are DI,SPD,EOD,AOD,ERD,CNT,TI; bias mitigation: pre-process(reweighing,DIR), in-process(AD,PRR) and post-    process(EO,COD,ROC)) along with explainability on test data on XGB,RF,KNN.
+ https://krishnarj422.github.io/Explainability_Bias_Fairness-in-AI/German_credit_score_XAI_BIAS_FAIRNESS.html .
  
  
 REFERENCES:
