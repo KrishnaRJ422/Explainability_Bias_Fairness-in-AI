@@ -2,6 +2,8 @@
 This is done as a part of my main project submission for MBA in Analytics programs.
 This work focuses on bringing explainability to black box ML models, along with measuring fairness of the models and techniques to mitigate bias.
 German credit score data set is considered as source for this study https://archive.ics.uci.edu/ml/datasets/Statlog+%28German+Credit+Data%29 which is a binary label dataset that contains entries that contain customer financial and demographic information tagged with credit score(good/bad).
+Introduction to the bias and fairness:
+https://krishnarj422.github.io/Explainability_Bias_Fairness-in-AI/Introduction_to_bias_fairness.html
 This work is inspired by the paper https://arxiv.org/pdf/2005.12379.pdf and https://arxiv.org/pdf/1811.11154.pdf being other reference.
 This study is divided in to 3 parts:
 
@@ -11,9 +13,10 @@ This study is divided in to 3 parts:
  b) Explainability (using SHAPley, ELI5) on train data
  https://krishnarj422.github.io/Explainability_Bias_Fairness-in-AI/German_credit_score_XAI.html
  
- c) Fairness and bias mitigation (fairness metrics used are DI,SPD,EOD,AOD,ERD,CNT,TI; bias mitigation: pre-process(reweighing,DIR), in-process(AD,PRR) and post-    process(EO,COD,ROC)) along with explainability on test data on XGB,RF,KNN.
+ c) Fairness and bias mitigation (fairness metrics used are DI,SPD,EOD,AOD,ERD,CNT,TI; bias mitigation: pre-process(reweighing,DIR), in-process(AD,PRR) and post-    process(EO,COD,ROC)) along with explainability on test data on XGB,RF,KNN,LR,SVM.
  https://krishnarj422.github.io/Explainability_Bias_Fairness-in-AI/German_credit_score_XAI_BIAS_FAIRNESS.html .
  
+ It is found that the debaising has given better fairness performance in case of original data relative to oversampled data(ADASYN).
  
 REFERENCES:
 1. https://shap.readthedocs.io/en/latest/
