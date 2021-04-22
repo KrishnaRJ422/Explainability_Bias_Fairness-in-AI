@@ -18,6 +18,8 @@ This study is divided in to 3 parts:
  
  It is found that the debaising has given better fairness performance in case of original data relative to oversampled data(ADASYN).
  
+ Code for deployed hyper parameter tuned random forest model with protected attribute age is: https://github.com/KrishnaRJ422/German-Credit-Status
+ 
 REFERENCES:
 1. https://shap.readthedocs.io/en/latest/
 2. https://towardsdatascience.com/explain-any-models-with-the-shap-values-use-the-kernelexplainer-79de9464897a
