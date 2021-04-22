@@ -14,7 +14,9 @@ This study is divided in to 3 parts:
  https://krishnarj422.github.io/Explainability_Bias_Fairness-in-AI/German_credit_score_XAI.html
  
  c) Fairness and bias mitigation (fairness metrics used are DI,SPD,EOD,AOD,ERD,CNT,TI; bias mitigation: pre-process(reweighing,DIR), in-process(AD,PRR) and post-    process(EO,COD,ROC)) along with explainability on test data on XGB,RF,KNN,LR,SVM.
- https://krishnarj422.github.io/Explainability_Bias_Fairness-in-AI/German_credit_score_XAI_BIAS_FAIRNESS.html .
+ https://krishnarj422.github.io/Explainability_Bias_Fairness-in-AI/German_credit_status_BIAS_FAIRNESS_AGE.html
+ https://krishnarj422.github.io/Explainability_Bias_Fairness-in-AI/German_credit_status_BIAS_FAIRNESS_GENDER.html
+ https://krishnarj422.github.io/Explainability_Bias_Fairness-in-AI/German_credit_status_BIAS_FAIRNESS_MARITAL_STATUS.html .
  
  It is found that the debaising has given better fairness performance in case of original data relative to oversampled data(ADASYN).
  
