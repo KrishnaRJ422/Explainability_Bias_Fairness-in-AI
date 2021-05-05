@@ -21,7 +21,7 @@ This study is divided in to 3 parts:
  It is found that the debaising has given better fairness performance in case of original data relative to oversampled data(ADASYN).
  
  Code for deployed hyper parameter tuned random forest model with protected attribute age is: https://github.com/KrishnaRJ422/German-Credit-Status
- Deployed application: https://credit-score-status.herokuapp.com/
+ Deployed application: https://credit-score-status.herokuapp.com/   ,   https://creditstatus.azurewebsites.net/
  
 REFERENCES:
 1. https://shap.readthedocs.io/en/latest/
