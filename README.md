@@ -6,7 +6,7 @@ Introduction to the bias and fairness:
 https://krishnarj422.github.io/Explainability_Bias_Fairness-in-AI/Introduction_to_bias_fairness.html
 This work is inspired by the paper https://arxiv.org/pdf/2005.12379.pdf and https://arxiv.org/pdf/1811.11154.pdf being other reference.
 The protected attributes identified in this dataset are: Age, Gender.
-This study is divided in to 3 parts:
+This study is divided in to 5 parts:
 
  a) Exploratory data anaysis(EDA) through visualization, correalation analysis (klib library is used) 
  
@@ -15,11 +15,18 @@ This study is divided in to 3 parts:
  
  
  c) Fairness and bias mitigation (fairness metrics used are DI,SPD,EOD,AOD,ERD,CNT,TI; bias mitigation: pre-process(reweighing,DIR), in-process(AD,PRR) and post-    process(EO,COD,ROC)) along with explainability on test data on XGB,RF,KNN,LR,SVM.
+ 
+ d) Senstivity Analysis using Google's What-If tool (WIT)
+ 
+ e) Disparate Impact Analysis using Auto ML tool H2O.ai
+ 
+ https://krishnarj422.github.io/Explainability_Bias_Fairness-in-AI/MAIN_PJT_EDA_UPD.html
+ https://krishnarj422.github.io/Explainability_Bias_Fairness-in-AI/MAIN_PJT_RESP_AI_AGE_UPD.html
+ https://krishnarj422.github.io/Explainability_Bias_Fairness-in-AI/MAIN_PJT_RESP_AI_GENDER_UPD.html
 
  It is found that the debaising has given better fairness performance in case of original data relative to oversampled data(ADASYN).
  
- The similar approach is studied using google's what if tool:  (reference :https://www.youtube.com/watch?v=jHojeFCc5HE)
- 
+
  Code for deployed hyper parameter tuned random forest model with protected attribute age is: https://github.com/KrishnaRJ422/German-Credit-Status
  Deployed application: https://credit-score-status.herokuapp.com/   ,   https://creditstatus.azurewebsites.net/
  
@@ -35,3 +42,4 @@ REFERENCES:
 9. https://aif360.readthedocs.io/en/latest/modules/datasets.html
 10. https://nbviewer.jupyter.org/github/IBM/AIF360/blob/master/examples/tutorial_credit_scoring.ipynb
 11. https://aif360.mybluemix.net/
+12. https://www.youtube.com/watch?v=jHojeFCc5HE
