@@ -1,4 +1,4 @@
-# Explainability_Bias_Fairness-in-AI
+# Explainability_Bias_Fairness-in-AI (Responsible AI)
 This is done as a part of my main project submission for MBA in Analytics programs.
 This work focuses on bringing explainability to black box ML models, along with measuring fairness of the models and techniques to mitigate bias.
 German credit score data set is considered as source for this study https://archive.ics.uci.edu/ml/datasets/Statlog+%28German+Credit+Data%29 which is a binary label dataset that contains entries that contain customer financial and demographic information tagged with credit score(good/bad).
@@ -15,8 +15,7 @@ This study is divided in to 3 parts:
  
  
  c) Fairness and bias mitigation (fairness metrics used are DI,SPD,EOD,AOD,ERD,CNT,TI; bias mitigation: pre-process(reweighing,DIR), in-process(AD,PRR) and post-    process(EO,COD,ROC)) along with explainability on test data on XGB,RF,KNN,LR,SVM.
- 
- 
+
  It is found that the debaising has given better fairness performance in case of original data relative to oversampled data(ADASYN).
  
  The similar approach is studied using google's what if tool:  (reference :https://www.youtube.com/watch?v=jHojeFCc5HE)
