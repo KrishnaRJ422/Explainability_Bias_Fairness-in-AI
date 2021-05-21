@@ -5,22 +5,21 @@ German credit score data set is considered as source for this study https://arch
 Introduction to the bias and fairness:
 https://krishnarj422.github.io/Explainability_Bias_Fairness-in-AI/Introduction_to_bias_fairness.html
 This work is inspired by the paper https://arxiv.org/pdf/2005.12379.pdf and https://arxiv.org/pdf/1811.11154.pdf being other reference.
+The protected attributes identified in this dataset are: Age, Gender.
 This study is divided in to 3 parts:
 
  a) Exploratory data anaysis(EDA) through visualization, correalation analysis (klib library is used) 
- https://krishnarj422.github.io/Explainability_Bias_Fairness-in-AI/German_credit_score_EDA.html
+ 
  
  b) Explainability (using SHAPley, ELI5) on train data
- https://krishnarj422.github.io/Explainability_Bias_Fairness-in-AI/German_credit_score_XAI.html
+ 
  
  c) Fairness and bias mitigation (fairness metrics used are DI,SPD,EOD,AOD,ERD,CNT,TI; bias mitigation: pre-process(reweighing,DIR), in-process(AD,PRR) and post-    process(EO,COD,ROC)) along with explainability on test data on XGB,RF,KNN,LR,SVM.
- https://krishnarj422.github.io/Explainability_Bias_Fairness-in-AI/German_credit_status_BIAS_FAIRNESS_AGE.html  ,
- https://krishnarj422.github.io/Explainability_Bias_Fairness-in-AI/German_credit_status_BIAS_FAIRNESS_GENDER.html  ,
- https://krishnarj422.github.io/Explainability_Bias_Fairness-in-AI/German_credit_status_BIAS_FAIRNESS_MARITAL_STATUS.html .
+ 
  
  It is found that the debaising has given better fairness performance in case of original data relative to oversampled data(ADASYN).
  
- The similar approach is studied using google's what if tool: https://colab.research.google.com/drive/1aagVLnvfR7cGEF3Nq-ZcfzU5jSfdP56b#scrollTo=Miuz7oedZRRi&line=1&uniqifier=1 (reference :https://www.youtube.com/watch?v=jHojeFCc5HE)
+ The similar approach is studied using google's what if tool:  (reference :https://www.youtube.com/watch?v=jHojeFCc5HE)
  
  Code for deployed hyper parameter tuned random forest model with protected attribute age is: https://github.com/KrishnaRJ422/German-Credit-Status
  Deployed application: https://credit-score-status.herokuapp.com/   ,   https://creditstatus.azurewebsites.net/
