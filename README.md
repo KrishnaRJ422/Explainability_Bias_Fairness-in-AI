@@ -14,7 +14,7 @@ This study is divided in to 5 parts:
  b) Explainability (using SHAPley, ELI5) on train data
  
  
- c) Fairness and bias mitigation (fairness metrics used are DI,SPD,EOD,AOD,ERD,CNT,TI; bias mitigation: pre-process(reweighing,DIR), in-process(AD,PRR) and post-    process(EO,COD,ROC)) along with explainability on test data on XGB,RF,KNN,LR,SVM.
+ c) Fairness and bias mitigation (fairness metrics used are DI,SPD,EOD,AOD,ERD,CNT,TI; bias mitigation: pre-process(reweighing,DIR), in-process(AD,PRR) and post-    process(EO,COD,ROC)) along with explainability on test data on XGB,RF,KNN,LR,SVM using IBM's AIF360 toolkit in python.
  
  d) Senstivity Analysis using Google's What-If tool (WIT)
  
