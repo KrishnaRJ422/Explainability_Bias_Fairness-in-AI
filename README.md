@@ -1,5 +1,4 @@
 # Explainability_Bias_Fairness-in-AI (Responsible AI)
-This is done as a part of my main project submission for MBA in Analytics programs.
 This work focuses on bringing explainability to black box ML models, along with measuring fairness of the models and techniques to mitigate bias.
 German credit score data set is considered as source for this study https://archive.ics.uci.edu/ml/datasets/Statlog+%28German+Credit+Data%29 which is a binary label dataset that contains entries that contain customer financial and demographic information tagged with credit score(good/bad).
 Introduction to the bias and fairness:
